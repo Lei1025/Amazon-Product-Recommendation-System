@@ -2,7 +2,7 @@
 
 Performed KNN Algorithm in Java
 
-![Screenshot](/assets/uploads/5e191dac7cb767d152d97ae9a02bf28.png)
+![Screenshot](https://raw.githubusercontent.com/Lei1025/lei1025.github.io/master/assets/uploads/5e191dac7cb767d152d97ae9a02bf28.png)
 
 # Tools and Libraries Used
 
@@ -31,7 +31,7 @@ In my demo, I used `All Beauty - metadata` in Pre-category data, since it is lar
 
 Ideally, it is in need of `asin`, `price`, `rank`, `review rate`, but review data is in another much larger `review data` file, not given average rate but each rate of every user. Therefore, I just wrote the code cleaning data like below:
 
-![](/assets/uploads/20200418215012.png)
+![](https://raw.githubusercontent.com/Lei1025/lei1025.github.io/master/assets/uploads/20200418215012.png)
 
 There are multiple way to address data, such as using database(SQL) or filtering in Excel. I wrote a `preProcessMetaFile` method in Recommendation.java to clean my data to a `.csv` file, which is convenient for using `weka` library directly.
 
