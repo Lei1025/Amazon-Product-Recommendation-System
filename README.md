@@ -48,7 +48,7 @@ Compare to [this example](https://towardsdatascience.com/prototyping-a-recommend
 
 > Euclidean distance is unhelpful in high dimensions because all vectors are almost equidistant to the search query vector (target movie’s features). Instead, we will use cosine similarity for nearest neighbor search.
 
-I only have 2 dimensions -- price and rank, at most to add one more --`review`. Therefore `Euclidean Distance` should implement in `KNN`. (It is also the default distance function in  `IBK`, do not need the configuration like I did.)
+I only have 2 dimensions -- `price` and `rank`, at most to add one more --review. Therefore `Euclidean Distance` should implement in `KNN`. (It is also the default distance function in  `IBK`, do not need the configuration like I did.)
 
 If given a product's price and rank, KNN will find the K nearest product. For example, K is set to 1, price is 10 and rank is 430,000, it may find the product in row 5 which is the most similar one. By default, IBK class will find the closest one.
 
