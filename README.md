@@ -1,4 +1,4 @@
-# Amazon-Product-Recommendation-System
+# Amazon Product Recommendation System
 
 Performed KNN Algorithm in Java
 
